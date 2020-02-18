@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN" "http://java.sun.com/products/javahelp/map_2_0.dtd">
+<map version="2.0">
+    <mapID target="busqueda1" url="C:\Users\franc\Desktop\HTML Pagina\images\busqueda.png"/>
+    <mapID target="busqueda2" url="C:\Users\franc\Desktop\HTML Pagina\images\busqueda_2.png"/>
+    <mapID target="busqueda3" url="C:\Users\franc\Desktop\HTML Pagina\images\ReservaHabImg.png"/>
+    <mapID target="busqueda4" url="C:\Users\franc\Desktop\HTML Pagina\images\ReservaSalonImg.png"/>
+    <mapID target="busqueda5" url="C:\Users\franc\Desktop\HTML Pagina\images\AlertaTiempo.png"/>
+    <mapID target="busqueda6" url="C:\Users\franc\Desktop\HTML Pagina\images\FechaEvento.png"/>
+    <mapID target="busqueda7" url="C:\Users\franc\Desktop\HTML Pagina\images\FechaEntradaSalida.png"/>
+    <mapID target="busqueda8" url="C:\Users\franc\Desktop\HTML Pagina\images\Fumadores.png"/>
+    <mapID target="busqueda9" url="C:\Users\franc\Desktop\HTML Pagina\images\NumDias.png"/>
+    <mapID target="busqueda10" url="C:\Users\franc\Desktop\HTML Pagina\images\NumHabitaciones.png"/>
+    <mapID target="busqueda11" url="C:\Users\franc\Desktop\HTML Pagina\images\NumHabitacionesSalon.png"/>
+    <mapID target="busqueda12" url="C:\Users\franc\Desktop\HTML Pagina\images\NumPersonas.png"/>
+    <mapID target="busqueda13" url="C:\Users\franc\Desktop\HTML Pagina\images\RegimenHabitaciones.png"/>
+    <mapID target="busqueda14" url="C:\Users\franc\Desktop\HTML Pagina\images\Temporizador.png"/>
+    <mapID target="busqueda15" url="C:\Users\franc\Desktop\HTML Pagina\images\TipoCocina.png"/>
+    <mapID target="busqueda16" url="C:\Users\franc\Desktop\HTML Pagina\images\TipoEvento.png"/>
+    <mapID target="busqueda17" url="C:\Users\franc\Desktop\HTML Pagina\images\TipoHabitacion.png"/>
+    
+    <mapID target="introduccion" url="fuentes/introduccion.html"/>
+    <mapID target="informacion" url="fuentes/informacion.html"/>
+    <mapID target="base_datos" url="fuentes/base_datos.html"/>
+    <mapID target="menu_principal" url="fuentes/menu_principal.html"/>
+    <mapID target="reservas" url="fuentes/busqueda_cliente.html"/>
+    <mapID target="habitaciones" url="fuentes/ReservaHabitaciones.html"/>
+    <mapID target="salon" url="fuentes/ReservaSalon.html"/>
+</map>    

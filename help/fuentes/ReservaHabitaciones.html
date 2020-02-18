@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es" style="font-size:20px">
+  <head>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+      <style>
+          h1{
+              font-family: 'Montserrat', sans-serif;
+          }
+          p{
+              font-family: 'Montserrat', sans-serif;
+          }
+          h3{
+              font-family: 'Montserrat', sans-serif;
+          }
+          h4{
+              font-family: 'Montserrat', sans-serif;
+          }
+          ul{
+              font-family: 'Montserrat', sans-serif;
+          }
+      
+      </style>
+  </head>
+  <body>
+    <h1>Reserva de Habitaciones</h1>
+    <hr>
+    <p align="justify">
+      Esta ventana de ayuda le indicar&aacute; paso a paso como funciona la ventana de <strong>Reserva de Habitaciones</strong> y como introducir
+      paso a paso una <strong>reserva</strong>.
+    </p>
+    <p align="justify">
+      Esta ventana se divide en <strong>dos secciones</strong>, la primera,
+      <strong>Datos del cliente</strong> que podr&aacute; encontrar su ayuda detallada en
+      <a href="busqueda_cliente.html">Ayuda de Reservas</a>, y <strong>Datos de la reserva</strong>,
+      de la que se hablar&aacute; en esta secci&oacute;n.
+    </p>
+
+    <p align="center"><img src="resources/images/ReservaHabImg.png" alt=""></p>
+
+    <br>
+
+    <h3>Datos de la Reserva (Habitaciones)</h3>
+    <hr>
+    <p align="justify">
+      Una vez realizada la b&uacute;squeda de clientes, detallada en la secci&oacute;n
+      <a href="busqueda_cliente.html">Ayuda de Reservas</a>, se habilitar&aacute;n los campos para reserva las habitaciones.
+      Est&aacute; secci&oacute;n consta de los siguientes campos:
+    </p>
+<!-- Campos de fecha -->
+    <h4>Campos de Fecha (Entrada y salida)</h4>
+    <p align="justify">
+      Las fechas de entrada y salida podr&aacute;n ser introducidas mediante dos componentes de tipo
+      <a href="https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/DatePicker.html">DatePicker</a>, o selectores de fecha.
+      Para introducir la fecha solo hay que hacer click en el icono del calendario en cada selector.
+      El de la <strong>izquierda</strong>, se corresponde con la <strong>Fecha de entrada</strong>
+      y, el de la <strong>derecha</strong>, con la <strong>Fecha de salida</strong>.
+    </p>
+
+    <p align="center"><img src="resources/images/FechasEntradaSalida.png" alt=""></p>
+
+    <ul>
+      <li>
+        <h4>Fecha de entrada</h4>
+        <p align="justify">
+          La <strong>Fecha de entrada</strong> tendr&aacute; como valor inicial el d&iacute;a actual. Se podr&aacute; seleccionar cualquier
+          d&iacute;a igual o posterior a la fecha actual. <strong>No se podr&aacute; seleccionar
+          una d&iacute;a anterior al d&iacute;a actual</strong>. Los d&iacute;as deshabilitados aparecer&aacute;n con un fondo de color rojo.
+        </p>
+
+        <p align="justify">
+          <u>A tener en cuenta</u>: Al cambiar la fecha de entrada, la fecha de salida se actualizar&aacute; autom&aacute;ticamente
+          al d&iacute;a posterior.
+        </p>
+      </li>
+
+      <li>
+        <h4>Fecha de salida</h4>
+        <p align="justify">
+          La <strong>Fecha de salida</strong> tendr&aacute; como valor inicial el d&iacute;a posterior al d&iacute;a actual. Se podr&aacute;
+          seleccionar un d&iacute;a igual o posterior a la fecha de entrada. <strong>No se podr&aacute; seleccionar un d&iacute;a de salida
+          anterior a la fecha de entrada</strong>. Al seleccionar un d&iacute;a posterior, <strong>se avisar&aacute; al usuario</strong> de que no puede seleccionar
+          esa fecha.
+        </p>
+      </li>
+    </ul>
+    <br>
+<!-- Fin de Campos de fecha -->
+<!-- Numeros de habitaciones -->
+    <h4>N&uacute;mero de Habitaciones</h4>
+    <p align="justify">
+      El <strong>n&uacute;mero de habitaciones</strong> podr&aacute; seleccionarse mediante un componente de tipo <a href="https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Spinner.html">Spinner</a>, o selector de ruleta,
+      <strong>con valor por defecto 1</strong>. El <strong>m&aacute;ximo de habitaciones por defecto</strong> est&aacute; establecido en <strong>100</strong>
+      y el <strong>m&iacute;nimo</strong> en <strong>1</strong>. El campo incluye dos botones con indicadores en forma de flecha que permiten <strong>incrementar o decrementar</strong>
+      el valor actual.
+    </p>
+
+    <p align="center"><img src="resources/images/NumHabitaciones.png" alt=""></p>
+<!-- Fin de Numeros de habitaciones -->
+<!-- Tipo de habitaciones -->
+    <h4>Tipo de Habitacion</h4>
+    <p align="justify">
+      El <strong>tipo de habitaci&oacute;n</strong> podr&aacute; seleccionarse mediante un componente de tipo <a href="https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/ComboBox.html">ComboBox</a>, o desplegable,
+      que incluye tipos <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/String.html">String</a>, o cadena de caracteres, para referirse al <strong>tipo de habitaci&oacute;n</strong>.
+    </p>
+
+    <p align="justify">
+      El usuario podr&aacute; elegir entre: <strong>Individual</strong>, <strong>Suite</strong> o <strong>Doble uso individual</strong>. El valor por defecto no est&aacute; establecido.
+    </p>
+
+    <p align="justify">
+      <u>Este componente dispone de control de errores</u>. <strong>Si el usuario se olvida de seleccionar un tipo de habitaci&oacute;n</strong>, en la alerta, detallada en <a href="busqueda_cliente.html">Ayuda de Reservas</a>, aparecer&aacute; un mensaje
+      <strong>avisando al usuario</strong> de que seleccione un tipo de habitaci&oacute;n.
+    </p>
+
+    <p align="center"><img src="resources/images/TipoHabitacion.png" alt=""></p>
+<!-- Fin de Tipo de habitaciones -->
+<!-- Regimen de habitaciones -->
+    <h4>R&eacute;gimen de Habitaciones</h4>
+    <p align="justify">
+      El <strong>r&eacute;gimen de las habitaciones</strong> podr&aacute; seleccionarse mediante <a href="https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/RadioButton.html">RadioButtons</a>, o selectores de bot&oacute;n,
+      los cu&aacute;les <strong>solo le permiten seleccionar una</strong> de entre todas las opciones disponibles.
+    </p>
+
+    <p align="justify">
+      Las opciones disponibles por defecto son: <strong>Media pensi&oacute;n</strong>, <strong>Pensi&oacute;n completa</strong> y <strong>Alojamiento y desayuno</strong>.
+    </p>
+
+    <p align="justify">
+      <u>Este componente dispone de control de errores</u>. <strong>Si el usuario se olvida de seleccionar un r&eacute;gimen de habitaci&oacute;n</strong>, en la alerta, detallada en <a href="busqueda_cliente.html">Ayuda de Reservas</a>, aparecer&aacute; un mensaje
+      <strong>avisando al usuario</strong> de que seleccione un r&eacute;gimen de habitaci&oacute;n.
+    </p>
+
+    <p align="center"><img src="resources/images/RegimenHabitaciones.png" alt=""></p>
+<!-- Fin de Regimen de habitaciones -->
+<!-- Fumadores -->
+    <h4>Fumadores</h4>
+    <p align="justify">
+      Si el cliente es <strong>fumador</strong>, el usuario dispone de un componente de tipo <a href="https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/CheckBox.html">Checkbox</a>, o selector, al cual podr&aacute; <strong>hacer click para indicar que el cliente es fumador</strong>.
+      Tras hacer click, aparecer&aacute; un mensaje indicando al usuario el funcionamiento de las habitaciones de fumadores.
+    </p>
+
+    <p align="justify">
+      Mensaje: <br>
+      <i>"En virtud de la ley de sanidad se informa a los clientes de que solo podr&aacute;n fumar en las habitaciones reservadas para tal fin."</i>
+    </p>
+    <p align="center"><img src="resources/images/Fumadores.png" alt=""></p>
+<!-- Fin de Fumadores -->
+  <br>
+  <ul>
+    <li><a href="ReservaSalon.html">Ir a Reserva de Sal&oacute;n Habana</a></li>
+    <li><a href="busqueda_cliente.html">Volver a Reservas</a></li>
+    <li><a href="menu_principal.html">Volver a Inicio</a></li>
+  </ul>
+  <br>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN" "http://java.sun.com/products/javahelp/map_2_0.dtd">
+<index version="2.0">
+    <indexitem text="introduccion" target="introduccion"/>
+    <indexitem text="informacion" target="informacion"/>
+    <indexitem text="base_datos" target="base_datos"/>
+    <indexitem text="menu_principal" target="menu_principal"/>
+    <indexitem text="reservas" target="reservas"/>
+    <indexitem text="habitaciones" target="habitaciones"/>
+    <indexitem text="salon" target="salon"/>
+</index>
